@@ -1,0 +1,132 @@
+.page-wrapper{
+	width: 80%;
+	margin: auto;
+}
+.column{
+	float:left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+} 
+.small{
+	width:30%;
+}
+.medium{
+	width:40%;
+}
+.large{
+	width:60%;
+}
+.feature{
+	text-align: center;
+	padding: 0;
+	width: 100%;
+}
+.clear{
+	clear: both;
+}
+
+
+
+nav{
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+	border-bottom: 3px solid black;
+	padding: 0% 20%;
+}
+nav>ul{
+	display: flex;
+	justify-content: space-around;
+}
+nav>ul>li{
+	display: inline;
+	margin: 0% 5%;
+}
+nav>ul>li>a{
+	color: darkgray;
+	font-weight: bold;
+	white-space: nowrap;
+}
+nav>ul>li>a:link{
+}
+nav>ul>li>a:visited{
+}
+nav>ul>li>a:hover{
+	color:white;
+	background-color: darkgrey;
+}
+nav>ul>li>a:active{
+}
+
+body{
+	margin:0%;
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+article{
+	background-color: gainsboro;
+	width: 90%;
+	padding: 5%;
+	border: 1px solid white
+}
+h1{
+	background-color: darkgray;
+	color: white;
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+	font-size: 100px;
+	font-weight: bold;
+	padding: .5% .5% 0% 2%;
+	margin:0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	vertical-align: baseline;
+}
+
+
+figure{
+	width:90%;
+	background-color: gainsboro;
+	margin: 0%;
+	padding: 5%;
+	border: 2px solid white
+
+}
+figure>img{
+	width: 100%
+}
+img{
+	width:100%;
+	background-color: gainsboro;
+	display: flex;
+	align-content: stretch;
+
+}
+figcaption>p{
+	color: black;
+	text-align: center;
+}
+table{
+	background-color: black;
+	margin: 0px auto;
+}
+tbody{
+	background-color: white;
+}
+thead{
+	background-color: darkgray;
+}
+tfoot{
+	background-color: darkgray;
+}
+footer{
+	background-color: darkgray;
+	color: white;
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 0%;
+	width: 100%;
+	margin:0%;
+	border-top: 3px solid black;
+}
